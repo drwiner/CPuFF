@@ -143,13 +143,13 @@ def spacy_sents_to_conll(raw_text):
 
 
 
-# # def compile_framenet_starters():
-# print('loading dub frames')
-# dub_frames = [full_frame.name for full_frame in fn.frames() if len(full_frame.name.split('_')) > 1]
-# FDD = defaultdict(list)
-# for dub_frame in dub_frames:
-# 	FDD[dub_frame.split('_')[0]].append(dub_frame)
-# 	# return fdd
+# def compile_framenet_starters():
+print('loading dub frames')
+dub_frames = [full_frame.name for full_frame in fn.frames() if len(full_frame.name.split('_')) > 1]
+FDD = defaultdict(list)
+for dub_frame in dub_frames:
+	FDD[dub_frame.split('_')[0]].append(dub_frame)
+	# return fdd
 
 
 # @clock

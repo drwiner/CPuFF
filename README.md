@@ -16,3 +16,8 @@ Process:
 ---
 
 Currently testing how well this performs on development set. Will not make a choice (between alternatives) when Semafor does not tag a framenet frame in a sentence. If the e1, e2 pair is not in the CP-score database, then the causality is deemed as 0. 
+
+Output:
+---
+
+Performance on COPA. TBD
